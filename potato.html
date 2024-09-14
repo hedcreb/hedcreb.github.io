@@ -5,16 +5,22 @@
         <meta charset="UTF-8">
         <style>
             .potitle {
-		font-family: "Times New Roman";
+		        font-family: "Times New Roman";
                 display: flex;
                 justify-content: center;
                 font-size: 5.4em;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
             }
 	    .quote {
 		font-family: "Times New Roman";
 		display: flex;
 		justify-content: center;
 		font-size: 2.69em;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
 	    }
         .biggerquote {
         font-family: "Times New Roman";
@@ -32,10 +38,14 @@
             function playAudio(url) {
                 new Audio(url).play();
             }
+            function redirecT() {
+                window.location='https://www.youtube.com/@theraelT/videos'
+            }
         </script>
         <h1 class="potitle" onclick="playAudio('applause-236785.mp3')">potato</h1>
         <h2 class="biggerquote">wall of quotes</h2>
-	    <h2 class="quote">potatoes on delisiouise - sever pro 2024</h2>
+	    <h2 class="quote">potatoes are delisiouise - sever pro 2024</h2>
 	    <h2 class="quote">potato - hedcreb 2024</h2>
+        <h2 class="quote" onclick="redirecT()">Potato - TheRealT 2024</h2>
     </body>
 </html>
